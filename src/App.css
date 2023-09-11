@@ -1,0 +1,47 @@
+:root {
+  --BlueMain: #105ba6;
+  --blue: #012970;
+  --black: #444;
+  --gray: #788097;
+  --blackGray: #448fc9;
+  --white: #fff;
+  --bluebg: #ecf3ff;
+  --bluebold: #106eea;
+  --blackgray: #6b7280;
+
+  --color-default: #212529;
+  --color-default-rgb: 33, 37, 41;
+  --color-background: #ffffff;
+  --color-background-rgb: 255, 255, 255;
+  --color-primary-rgb: 232, 69, 69;
+  --color-secondary: #32353a;
+  --color-secondary-rgb: 50, 53, 58;
+  --color-box-background: #ffffff;
+  --color-box-background-rgb: 255, 255, 255;
+  --color-inverse: #ffffff;
+  --color-inverse-rgb: 255, 255, 255;
+}
+
+.App {
+  overflow: hidden;
+  color: var(--black);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Loading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.button {
+  border-radius: 5px;
+  border: none;
+}
+
+.button:hover {
+  background-color: #0555a1;
+  cursor: pointer;
+  color: #fff;
+}

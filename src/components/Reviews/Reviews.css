@@ -1,0 +1,203 @@
+.feedback {
+    padding: 100px 0;
+}
+.feedback-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.feedback-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+
+.feedback-title h3 {
+    color: var(--bluebold);
+    font-size: 32px;
+    position: relative;
+    font-family: "Roboto-Bold";
+    margin: 14px 0;
+}
+
+.feedback-title h3:before,
+.feedback-title h3:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: var(--bluebold);
+    display: inline-block;
+}
+
+.feedback-title h3:before {
+    margin: 0 10px 10px 0;
+}
+
+.feedback-title h3:after {
+    margin: 0 0 10px 10px;
+}
+
+.feedback-title p {
+    margin-bottom: 0;
+    font-family: "Roboto-Regular";
+    color: var(--black);
+    font-size: 16px;
+}
+.testimonial-item {
+    padding: 0 20px;
+}
+.testimonial-item p {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    color: #444;
+}
+.testimonial-item h5 {
+    font-family: "Roboto-Bold";
+    font-size: 20px;
+    color: var(--bluebold);
+}
+.testimonial-item span {
+    font-family: "Roboto-Light";
+    font-size: 18px;
+    color: var(--black);
+}
+.testimonial-left,
+.testimonial-right {
+    position: relative;
+}
+
+.testimonial-left img,
+.testimonial-right img {
+    position: absolute;
+    padding: 5px;
+    border: 2px dashed var(--bluebold);
+    border-radius: 10px;
+}
+
+.testimonial-left img:nth-child(1),
+.testimonial-right img:nth-child(3) {
+    width: 70px;
+    height: 70px;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.testimonial-left img:nth-child(2),
+.testimonial-right img:nth-child(2) {
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+
+.testimonial-left img:nth-child(3),
+.testimonial-right img:nth-child(1) {
+    width: 50px;
+    height: 50px;
+    bottom: 10%;
+    right: 10%;
+}
+.avatar-container {
+    border-radius: 50px;
+}
+
+.feedback-icon {
+    color: var(--bluebold);
+}
+@media (max-width: 575px) {
+    .testimonial-item p {
+        font-family: "Roboto-Regular";
+        font-size: 12px;
+        color: var(--gray);
+    }
+    .testimonial-item h5 {
+        font-family: "Roboto-Bold";
+        font-size: 18px;
+        color: var(--bluebold);
+    }
+    .testimonial-item span {
+        font-family: "Roboto-Regular";
+        font-size: 14px;
+        color: var(--gray);
+    }
+    .feedback {
+        padding: 10px 16px 30px 16px;
+    }
+    .feedback-title {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    .feedback-title h2 {
+        margin: 0;
+    }
+    .feedback-title h3 {
+        color: var(--bluebold);
+        font-size: 20px;
+        position: relative;
+        font-weight: "Roboto-Bold";
+        margin: 14px 0;
+    }
+
+    .feedback-title h3:before,
+    .feedback-title h3:after {
+        content: "";
+        width: 10px;
+        height: 2px;
+        background: var(--bluebold);
+        display: inline-block;
+    }
+
+    .feedback-title h3:before {
+        margin: 0 5px 6px 0;
+    }
+
+    .feedback-title h3:after {
+        margin: 0 0 6px 5px;
+    }
+
+    .feedback-title p {
+        margin-bottom: 0;
+        font-family: "Roboto-Regular";
+        color: #444;
+        font-size: 14px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .feedback {
+        margin: 10px 0;
+    }
+    .testimonial-item p {
+        font-size: 18px;
+        color: var(--black);
+    }
+    .testimonial-item h5 {
+        font-size: 26px;
+        color: var(--bluebold);
+    }
+    .testimonial-item span {
+        font-size: 20px;
+        color: var(--black);
+    }
+    .feedback-title p {
+        color: var(--black);
+        font-size: 18px;
+    }
+    .feedback-title {
+        padding-bottom: 20px;
+    }
+    .feedback-title h3 {
+        font-size: 32px;
+    }
+    .feedback-title h3:before,
+    .feedback-title h3:after {
+        width: 10px;
+        height: 2px;
+    }
+}

@@ -1,0 +1,53 @@
+#companyImage {
+    background-image: url(../../img/closed-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 40px 0 160px 0;
+}
+.image-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.image-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: var(--bluebold);
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.image-title h3 {
+    color: var(--bluebold);
+    font-size: 32px;
+    position: relative;
+    font-family: "Roboto-Bold";
+    margin: 10px 0;
+}
+
+.image-title h3:before,
+.image-title h3:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: var(--bluebold);
+    display: inline-block;
+}
+
+.image-title h3:before {
+    margin: 0 10px 10px 0;
+}
+
+.image-title h3:after {
+    margin: 0 0 10px 10px;
+}
+
+.image-title p {
+    margin-bottom: 0;
+    font-family: "Roboto-Regular";
+    color: var(--black);
+    font-size: 16px;
+}

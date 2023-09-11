@@ -1,0 +1,234 @@
+.about_section {
+  margin-top: 100px;
+  width: 100%;
+  position: relative;
+}
+.about_section::after {
+  content: "";
+  position: absolute;
+  height: 450px;
+  width: 48%;
+  margin: 0 auto;
+  justify-content: center;
+  left: 0px;
+  right: initial;
+  display: block;
+  background-image: url(../../img/about-bg.png);
+  top: 40px;
+  z-index: -1;
+  background-size: 100%;
+}
+.about-right {
+  padding-top: 60px;
+}
+.about-icon-check {
+  font-size: 30px;
+  color: var(--bluebold);
+}
+.about-title {
+  width: 100%;
+  float: left;
+  font-size: 20px;
+  color: var(--bluebold);
+  font-family: "Roboto-Bold";
+}
+
+.about_text {
+  width: 100%;
+  float: left;
+  font-size: 16px;
+  color: #444;
+  margin-left: 0px;
+  font-family: "Roboto-Regular";
+  margin: 8px 0;
+}
+.us_text {
+  color: #444;
+  font-size: 17px;
+  font-family: "Roboto-Light";
+}
+.image_2 {
+  width: 100%;
+  float: left;
+}
+.layout_padding {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.custom-list-item {
+  line-height: 32px;
+}
+.about-button {
+  padding-top: 20px;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.scroll-content {
+  opacity: 0;
+  transform: translateY(20px);
+  transition:
+    opacity 1s ease-in-out,
+    transform 1s ease-in-out;
+}
+
+.scroll-content.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .about_section {
+    margin-top: 0px;
+    width: 100%;
+    position: relative;
+  }
+  .about-left {
+    margin-top: 60px;
+  }
+  .about_section::after {
+    content: "";
+    position: absolute;
+    height: 220px;
+    width: 48%;
+    margin: 0 auto;
+    justify-content: center;
+    left: 0px;
+    right: initial;
+    display: block;
+    background-image: url(../../img/about-bg.png);
+    top: 100px;
+    z-index: -1;
+    background-size: 100%;
+  }
+  .about-right {
+    padding-top: 10px;
+  }
+
+  .about-title {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: var(--bluebold);
+    font-family: "Roboto-Bold";
+  }
+
+  .about_text {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: var(--blackgray);
+    margin-left: 0px;
+    font-family: "Roboto-Regular";
+    margin: 8px 0;
+  }
+  .us_text {
+    color: var(--black);
+    font-size: 17px;
+    font-family: "Roboto-Regular";
+  }
+  .image_2 {
+    width: 100%;
+    float: left;
+  }
+  .layout_padding {
+    padding-top: 40px;
+    padding-bottom: 60px;
+  }
+
+  .custom-list-item {
+    line-height: 28px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .about_section {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+  }
+  .about_text {
+    font-size: 14px;
+  }
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+  .about_section {
+    padding: 90px 0px;
+    background-color: #f5f3f3;
+    margin-bottom: 10px;
+  }
+  .about_section::after {
+    display: none;
+  }
+  .image_2 {
+    width: 100%;
+  }
+  .about_section {
+    margin-top: 10px;
+    width: 100%;
+    position: relative;
+  }
+}
+@media (max-width: 575px) {
+  .about-right {
+    padding-top: 16px;
+  }
+  .about_section .row {
+    flex-direction: column-reverse;
+  }
+  .about_section::after {
+    display: none;
+  }
+  .about_section {
+    margin: 0px;
+    width: 100%;
+    position: relative;
+  }
+  .image_2 {
+    width: 100%;
+  }
+  .custom-list-item {
+    width: 100%;
+  }
+  .about-title {
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: var(--bluebold);
+    font-family: "Roboto-Bold";
+  }
+  .about_text {
+    width: 100%;
+    float: left;
+    font-size: 14px;
+    color: var(--blackgray);
+    font-family: "Roboto-Regular";
+    margin: 0 0 10px 0;
+  }
+  .us_text {
+    color: var(--black);
+    font-size: 14px;
+    font-family: "Roboto-Regular";
+  }
+  .custom-list-item {
+    line-height: 12px;
+  }
+  .btn-hover {
+    font-size: 16px;
+  }
+  .layout_padding {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}

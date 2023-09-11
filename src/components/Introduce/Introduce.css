@@ -1,0 +1,339 @@
+.introduce {
+  width: 100%;
+  height: 100vh;
+  background: url(../../img/banner-bg.png) top center no-repeat;
+  background-size: cover;
+}
+.introduce h2 .slogan {
+  color: #444;
+  margin: 12px 0 0 0;
+  font-size: 184px;
+  font-family: "Roboto-Light";
+  margin-bottom: 30px;
+}
+
+.introduce .introduce-img {
+  text-align: right;
+  animation: fadeInUp 2s ease-out;
+}
+.btn span {
+  color: #fff;
+  font-family: "Roboto-Bold";
+  font-size: 16px;
+}
+
+.btn-radius {
+  border-radius: 100px !important;
+}
+.btn {
+  margin-right: 10px;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  padding: 13px 28px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+  text-transform: uppercase;
+  box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+}
+.btn-sm {
+  font-size: 11px;
+  font-weight: 600;
+  padding: 11px 25px;
+}
+.btn-lg {
+  padding: 18px 49px;
+}
+.btn-xs {
+  font-size: 10px;
+  padding: 8px 14px;
+}
+.btn-primary {
+  background: var(--bluebold);
+  background: -moz-linear-gradient(-45deg, #106eea 0%, #0e63d2 50%, #0c58bb 51%, #0b4da3 71%, #0e63d2 100%);
+  background: -webkit-linear-gradient(-45deg, #106eea 0%, #0e63d2 50%, #0c58bb 51%, #0b4da3 71%, #0e63d2 100%);
+  background: linear-gradient(135deg, #106eea 0%, #0e63d2 50%, #0c58bb 51%, #0b4da3 71%, #0e63d2 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#106eea', endColorstr='#0c58bb',GradientType=1 );
+  background-size: 400% 400%;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  -webkit-animation: AnimationName 3s ease infinite;
+  -moz-animation: AnimationName 3s ease infinite;
+  animation: AnimationName 3s ease infinite;
+  border: medium none;
+}
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 31%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 31%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 31%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 31%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 31%;
+  }
+  50% {
+    background-position: 100% 70%;
+  }
+  100% {
+    background-position: 0% 31%;
+  }
+}
+.video-icon {
+  color: var(--bluebold);
+  animation: rotate 2s linear infinite;
+  cursor: pointer;
+  margin-right: 6px;
+  width: 46px;
+}
+
+.video-text {
+  bottom: 30;
+  color: var(--bluebold);
+  font-family: "Roboto-Bold";
+  font-size: 18px;
+  cursor: pointer;
+  animation: moveInRight 1s ease-out;
+  text-transform: capitalize;
+}
+
+.center {
+  animation: moveInLeft 1s ease-out;
+  padding-top: 100px;
+}
+.center h2 {
+  color: rgba(255, 0, 0, 0.1);
+  text-transform: uppercase;
+  font-weight: 700;
+  background-size: cover;
+  background-image: url(https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?w=996&t=st=1688629002~exp=1688629602~hmac=27682efcdbffef223a0411bhttps://img.freepik.com/premium-https://img.freepik.com/free-photo/abstract-background-with-low-poly-design_1048-8478.jpg?w=996&t=st=1688629002~exp=1688629602~hmac=27682efcdbffef223a0411b25255a8d19e8646207e001ab3dbf8edcb44b5272c/science-technology-background-with-blue-wireframe-abstract-digital-link-banner-generative-ai_942102-164.jpg?w=74025255a8d19e8646207e001ab3dbf8edcb44b5272c);
+  -webkit-background-clip: text;
+  animation: background-text-animation 14s linear infinite;
+  font-size: 50px;
+}
+.center h6 {
+  font-size: 18px;
+  font-family: "Roboto-Regular";
+  margin: 24px 0;
+  color: var(--black);
+  animation: moveInRight 1s ease-out;
+}
+.img-fluid {
+  animation: moveInBottom 1s ease-out;
+}
+
+@keyframes background-text-animation {
+  0% {
+    background-position: left 0px top 50%;
+  }
+  50% {
+    background-position: left 1500px top 50%;
+  }
+  100% {
+    background-position: left 0px top 50%;
+  }
+}
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-200px);
+  }
+
+  50% {
+    transform: translateX(0px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+
+  50% {
+    transform: translateX(-20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0.5;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (min-width: 1024px) {
+  .introduce {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 991px) {
+  .introduce {
+    text-align: center;
+    height: auto;
+    padding: 80px 0 60px 0;
+  }
+
+  .introduce .introduce-img {
+    text-align: center;
+    margin-top: 80px;
+  }
+
+  .introduce .introduce-img img {
+    width: 80%;
+  }
+}
+@media (max-width: 575px) {
+  .introduce {
+    text-align: center;
+    height: auto;
+    padding: 80px 0 60px 0;
+  }
+
+  .introduce .introduce-img {
+    text-align: right;
+    animation: fadeInUp 2s ease-out;
+  }
+  .video {
+    margin-left: 10px;
+  }
+  .video-icon {
+    color: var(--bluebold);
+    animation: rotate 2s linear infinite;
+    cursor: pointer;
+    margin-right: 6px;
+    width: 40px;
+  }
+
+  .video-text {
+    bottom: 30;
+    color: var(--bluebold);
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+    cursor: pointer;
+    animation: moveInRight 1s ease-out;
+    text-transform: capitalize;
+  }
+
+  .center {
+    animation: moveInLeft 1s ease-out;
+    text-align: center;
+    justify-content: center;
+    padding-top: 30px;
+  }
+  .center h2 {
+    font-size: 32px;
+  }
+
+  .btn {
+    margin-right: 4px;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    padding: 8px 18px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.14);
+    text-transform: uppercase;
+    box-shadow: 0 4px 9px 0 rgba(0, 0, 0, 0.2);
+  }
+  .introduce .introduce-img {
+    text-align: center;
+  }
+  .slogan {
+    font-size: 14px;
+  }
+}
+@keyframes customEnterOverlayAnimation {
+  0% {
+    transform: scale(0);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveOverlayAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes customEnterModalAnimation {
+  0% {
+    transform: scale(0.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+@keyframes customLeaveModalAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.2);
+  }
+}
+.customOverlay {
+  background: rgba(36, 123, 160, 0.7);
+}
+.customModal {
+  background: var(--bluebold);
+  width: 100%;
+}
+@media (max-width: 575px) {
+  .customModal {
+    background: var(--bluebold);
+    width: 80%;
+    height: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .customModal {
+    background: var(--bluebold);
+    width: 80%;
+  }
+}

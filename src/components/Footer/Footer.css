@@ -1,0 +1,85 @@
+.footer {
+    color: #fff;
+    background: #1c2035 url(../../img/footer-bg1.png) no-repeat right top;
+    background-size: contain;
+    border-bottom: 1px solid #e1ecff;
+    border-top: 1px solid #e1ecff;
+}
+.footer .footer-link {
+    line-height: 24px;
+    font-size: 16px;
+    font-family: "Roboto-Light";
+    display: block;
+    margin-bottom: 5px;
+    padding: 0;
+    text-align: left;
+    font-weight: normal;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.footer .footer-link::before {
+    position: relative;
+    font-family: "Roboto-Bold";
+    margin-right: 10px;
+}
+
+.footer .footer-link:hover {
+    color: var(--white);
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+.contact-infor {
+    font-size: 16px;
+}
+.contact-time p {
+    font-family: "Roboto-Regular";
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+h6 {
+    font-family: "Roboto-Bold";
+}
+.contact-time {
+    line-height: 26px;
+}
+.contact-time b {
+    font-family: "Roboto-Bold";
+    font-size: 16px;
+}
+.copyright {
+    color: #b0b9ae;
+    font-family: "Roboto-Light";
+}
+.copyright p,
+a {
+    font-size: 14px;
+    cursor: pointer;
+}
+.copyright {
+    height: 80px;
+    background: #000;
+}
+
+.copyright a:hover {
+    color: var(--bluebold) !important;
+}
+
+.contact-news p {
+    font-size: 16px;
+    font-family: "Roboto-Light";
+    color: #fff;
+    line-height: 26px;
+}
+.contact-social {
+    font-size: 22px;
+    color: white;
+}
+.btn-square {
+    background-color: var(--bluebold);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 14px;
+}

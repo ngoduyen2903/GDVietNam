@@ -1,0 +1,121 @@
+.contact {
+    padding: 100px 0;
+}
+.contact-title {
+    text-align: center;
+    padding-bottom: 60px;
+}
+.contact-title h2 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 700;
+    padding: 8px 20px;
+    background: #e7f1fd;
+    color: #106eea;
+    display: inline-block;
+    text-transform: uppercase;
+    border-radius: 50px;
+}
+.contact-title h3 {
+    color: var(--bluebold);
+    font-size: 32px;
+    position: relative;
+    font-family: "Roboto-Bold";
+    margin: 14px 0;
+}
+.error {
+    color: red;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.contact-title h3:before,
+.contact-title h3:after {
+    content: "";
+    width: 10px;
+    height: 2px;
+    background: var(--bluebold);
+    display: inline-block;
+}
+
+.contact-title h3:before {
+    margin: 0 10px 10px 0;
+}
+
+.contact-title h3:after {
+    margin: 0 0 10px 10px;
+}
+
+.contact-title p {
+    margin-bottom: 0;
+    font-family: "Roboto-Regular";
+    color: var(--black);
+    font-size: 16px;
+}
+.contact .info-box {
+    color: #444444;
+    text-align: center;
+    box-shadow: 0 0 30px rgba(214, 215, 216, 0.3);
+    padding: 20px 0 30px 0;
+}
+
+.contact .info-box i {
+    font-size: 32px;
+    color: #106eea;
+    border-radius: 50%;
+    padding: 8px;
+    border: 2px dotted #b3d1fa;
+}
+
+.contact .info-box h3 {
+    font-size: 20px;
+    color: #777777;
+    font-weight: 700;
+    margin: 10px 0;
+}
+
+.contact .info-box p {
+    padding: 0;
+    line-height: 24px;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+@media (max-width: 575px) {
+    .contact {
+        padding: 10px 0;
+        margin-bottom: 60px;
+    }
+    .contact-title {
+        padding-bottom: 40px;
+    }
+    .contact-title h2 {
+        margin: 0;
+    }
+    .contact-title h3 {
+        font-size: 20px;
+        margin: 14px 0;
+    }
+    .contact-title p {
+        color: #444;
+        font-size: 14px;
+    }
+    .contact-title h3:before {
+        margin: 0 5px 6px 0;
+    }
+
+    .contact-title h3:after {
+        margin: 0 0 5px 6px;
+    }
+    .contact-form {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .contact-title p {
+        color: var(--black);
+        font-size: 18px;
+    }
+    .contact-form {
+        margin-top: 30px;
+    }
+}
