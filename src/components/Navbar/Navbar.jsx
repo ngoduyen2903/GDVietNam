@@ -1,5 +1,4 @@
 import React from "react";
-import Toggle from "../Toggle/Toggle";
 import "./Navbar.css";
 import { Link } from "react-scroll";
 import MainLogo from '../../img/logo.png'
@@ -32,21 +31,16 @@ const Navbar = () => {
             <motion.li {...motionHorizontal}>
               <Link to="about" spy={true} smooth={true} offset={-110} duration={100} className="nav-link">Giới thiệu</Link></motion.li>
             <motion.li {...motionHorizontal}>
+              <Link to="services" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Dịch vụ</Link></motion.li>
+            <motion.li {...motionHorizontal}>
               <Link to="mile" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Cột mốc</Link></motion.li>
             <motion.li {...motionHorizontal}>
               <Link to="feedback" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Đánh giá</Link></motion.li>
             <motion.li {...motionHorizontal}>
-              <Link to="services" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Dịch vụ</Link></motion.li>
-            <motion.li {...motionHorizontal}>
-              <Link to="team" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Đội ngũ</Link></motion.li>
-            <motion.li {...motionHorizontal}>
               <Link to="project" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Dự án</Link></motion.li>
             <motion.li {...motionHorizontal}>
-              <Link to="contact" spy={true} smooth={true} offset={-40} duration={100} className="nav-link">Liên hệ</Link></motion.li>
+              <Link to="quote" spy={true} smooth={true} offset={-70} duration={100} className="nav-link">Đội ngũ</Link></motion.li>
           </ul>&emsp;&nbsp;
-          <motion.div {...motionVertical}>
-            <Toggle className="nav-link mobile-nav-toggle" />
-          </motion.div>
         </nav>
       </div>
     </header >

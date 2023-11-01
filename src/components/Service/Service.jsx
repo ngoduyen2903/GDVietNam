@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from "react";
+import React, { useContext } from "react";
 import { themeContext } from "../../Context";
 import "./Service.css";
 import { BsDatabaseFillUp } from "react-icons/bs";
@@ -9,7 +9,6 @@ import { AiFillSetting } from "react-icons/ai";
 import { RiComputerFill } from "react-icons/ri";
 import { FaPaintBrush } from "react-icons/fa";
 import { MdOutlineSupportAgent } from "react-icons/md";
-
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 

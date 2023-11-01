@@ -3,7 +3,6 @@ import "./Introduce.css";
 import { Link } from "react-scroll";
 import IntroduceImage from '../../img/bg8.png'
 import { themeContext } from "../../Context";
-import ModalVideo from 'react-modal-video';
 import 'react-modal-video/css/modal-video.min.css';
 import VideoImage from '../../img/play.png';
 import { motion } from "framer-motion";
